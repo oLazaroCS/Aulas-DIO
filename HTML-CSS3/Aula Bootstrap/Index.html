@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>  
+        <title>Minha página</title>
+        <meta charset="utf-8">
+        <!-- Sobre "linha7 ": Essa parte do link para o arquivo do bootstrap nao esta funcionando corretamente, foi necessario utilizar link externo com na linha 9 --> 
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">   
+    </head>
+    <body>
+        
+        <!--Barra de Navegação (Menu)-->
+        <nav class="navbar navbar-expand-lg nav-light">      
+            <a class="navbar-brand" href="#"> 
+                <img class="logo" src="img/480px-Wikimedia-logo.png" width="70">
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#artigos">Artigos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Vlog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quem-somos">Quem somos</a>
+                    </li>
+                </ul>
+                <!--Fim da Barra de Navegação (Menu)-->
+
+            </div>
+        </nav>
+
+        <section id="artigos">
+            <div class="container ex-container text-center">
+                Exemplo de container: Conteudo fica na centralizado na imagem, tanto cor quanto conteudo em si.
+            </div>
+
+            <div class="container-fluid ex-container-fluid text-center">
+                Exemplo de container fluid, onde o conteduo pega a pagina toda
+            </div>
+
+            <div class="container ex-container text-center margin-img">
+                <h3>Exemplo de imagem arredondada (Circle)</h3>
+                <img src="img/refrigerantelata.jpg" class="rounded-circle" width="25%">
+                <p class="margin">Lorem ipsum dolor sit amet consectetur adipiscing elit orci, varius quis mus felis neque placerat conubia lacus cursus, molestie sodales lacinia parturient pulvinar ut venenatis. Facilisis eleifend praesent luctus curabitur ex lectus vestibulum viverra, quam pharetra at eget dapibus inceptos primis. Sodales varius iaculis id praesent efficitur pretium dapibus mattis himenaeos, posuere felis suspendisse fusce lacus nam maecenas rutrum et mollis, adipiscing velit euismod congue elit natoque taciti lacinia.</p>
+            </div>
+        </section>
+
+        <!--Seção de blocos com imagem-->
+        <section id="quem-somos">
+            <div class="container-fluid ex-container-fluid text-center">
+               <div class="row">
+                   <div class="col-lg-4"> <!-- O col-lg-4, serai o tamanho das colunas, pode ser combinado com outros "col". O lg lignifica o tamanho, lg = grande, md = medio, sm = pequeno, "facilita lembrar traduções do ingles". O numero muda o posicionamento das colunas, melhor opção é testar conforme necessidade -->
+                        <h3 class="margin title1">Colunas com texto</h3>
+                        <img src="img/Fraisier-de-Morango.jpg" class="rounded-circle" width="300" height="300">
+                        <p class="margin title1">Lorem ipsum dolor sit amet consectetur adipiscing elit orci, varius quis mus felis neque placerat conubia lacus cursus, molestie sodales lacinia parturient pulvinar ut venenatis. Facilisis eleifend praesent luctus curabitur ex lectus vestibulum viverra, quam pharetra at eget dapibus inceptos primis. Sodales varius iaculis id praesent efficitur pretium dapibus mattis himenaeos, posuere felis suspendisse fusce lacus nam maecenas rutrum et mollis, adipiscing velit euismod congue elit natoque taciti lacinia.</p>
+                   </div>
+
+                   <div class="col-lg-4">
+                       <h3 class="margin title1">Colunas com texto</h3>
+                       <img src="img/Man-of-Steel-Superman-Hot-Toys-03.jpg" class="rounded-circle" width="300" height="300">
+                       <p class="margin title1">Lorem ipsum dolor sit amet consectetur adipiscing elit orci, varius quis mus felis neque placerat conubia lacus cursus, molestie sodales lacinia parturient pulvinar ut venenatis. Facilisis eleifend praesent luctus curabitur ex lectus vestibulum viverra, quam pharetra at eget dapibus inceptos primis. Sodales varius iaculis id praesent efficitur pretium dapibus mattis himenaeos, posuere felis suspendisse fusce lacus nam maecenas rutrum et mollis, adipiscing velit euismod congue elit natoque taciti lacinia.</p>
+                   </div>
+
+                   <div class="col-lg-4">
+                        <h3 class="margin title1">Colunas com texto</h3>
+                        <img src="img/2474240-paisagem-natural-com-vista-do-lago-ritsa-grátis-foto.jpg" class="rounded-circle" width="300" height="300">
+                        <p class="margin title1" >Lorem ipsum dolor sit amet consectetur adipiscing elit orci, varius quis mus felis neque placerat conubia lacus cursus, molestie sodales lacinia parturient pulvinar ut venenatis. Facilisis eleifend praesent luctus curabitur ex lectus vestibulum viverra, quam pharetra at eget dapibus inceptos primis. Sodales varius iaculis id praesent efficitur pretium dapibus mattis himenaeos, posuere felis suspendisse fusce lacus nam maecenas rutrum et mollis, adipiscing velit euismod congue elit natoque taciti lacinia.</p>
+                   </div>
+               </div>
+            </div>
+        </section>
+        <!--Fim da Seção de blocos com imagem-->
+
+    </body>
+    <!--Roda pé da pagna-->
+    <footer class="container-fluid text-center bg-footer">
+        Developer by Lazaro C Santos
+    </footer>
+    <!--Fim do roda pé-->
+
+</html>
